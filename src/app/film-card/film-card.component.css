@@ -1,0 +1,11 @@
+.card > img{
+  height: 300px;
+  object-fit: contain;
+}
+.bg_card{
+  height: 40vh;
+  width: 17vw;
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin-top: 10px;
+}
