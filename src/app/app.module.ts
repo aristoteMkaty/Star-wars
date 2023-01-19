@@ -9,6 +9,7 @@ import { FilmCardComponent } from './film-card/film-card.component';
 import { DetailInformationComponent } from './detail-information/detail-information.component';
 import { ConvertToSpacesPipePipe } from './ConvertToSpacesPipe/convert-to-spaces-pipe.pipe';
 import {HttpClientModule} from "@angular/common/http";
+import { PageNotFoundComponent } from './page-not-found/page-not-found.component';
 
 @NgModule({
   declarations: [
@@ -18,6 +19,7 @@ import {HttpClientModule} from "@angular/common/http";
     FilmCardComponent,
     DetailInformationComponent,
     ConvertToSpacesPipePipe,
+    PageNotFoundComponent,
   ],
   imports: [
     BrowserModule,
